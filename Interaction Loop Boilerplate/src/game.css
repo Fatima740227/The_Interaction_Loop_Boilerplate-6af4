@@ -1,0 +1,12 @@
+/* ─── Sengoku Chronicles ─── Ghost of Tsushima-inspired styling */
+*, html, body { margin:0; padding:0; box-sizing:border-box; }
+html, body { width:100vw; height:100vh; overflow:hidden; background:#000; color:#e8d8b8; font-family:'Noto Serif JP','Cinzel',Georgia,serif; }
+::-webkit-scrollbar { display:none; }
+
+@keyframes loading-bar { 0%{transform:translateX(-100%)} 50%{transform:translateX(0)} 100%{transform:translateX(100%)} }
+@keyframes fadeIn { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+@keyframes float-0 { 0%,100%{transform:translateY(0) translateX(0)} 50%{transform:translateY(-18px) translateX(8px)} }
+@keyframes float-1 { 0%,100%{transform:translateY(0) translateX(0)} 50%{transform:translateY(12px) translateX(-10px)} }
+@keyframes float-2 { 0%,100%{transform:translateY(0) translateX(0)} 50%{transform:translateY(-10px) translateX(14px)} }
+
+canvas { display:block; outline:none; -webkit-tap-highlight-color:transparent; }
